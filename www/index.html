@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Ninja Oro Mobile</title>
+    <script src="../node_modules/hammerjs/hammer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+    <body>
+    <div class="container-fluid">
+        <header class="row  p-2">Ninja Gold</header>
+                <div class="row justify-content-center">
+            <label for="" class="justify-content-center m-2">Tu oro:</label>
+            <textarea class="m-2" id="contadorOro"></textarea>
+        </div>
+        <div class=" row justify-content-center m-2" id="recuadro">
+            <div class="tarjeta card m-2" style="width: 20rem;" id="foto1">
+                <img src="img/granja.jpg" width = "300px" height = "300px" class="fotilla card-img-top " alt="casa" >
+                <div class="card-body">
+                    <h5 class="card-title">Granja</h5>
+                    <p class="card-text">(Gana entre 10 a 20 monedas)</p>
+                    <a href="#" class="boton btn btn-block">Desliza hacia arriba!</a>
+                </div>
+            </div>
+            <div class="tarjeta card m-2" style="width: 20rem;" id="foto2">
+                <img src="img/cueva.jpg" width = "300px" height = "300px" class="fotilla card-img-top overflow-hidden" alt="cueva">
+                <div class="card-body">
+                    <h5 class="card-title">Cueva</h5>
+                    <p class="card-text">(Gana entre 5 a 10 monedas)</p>
+                    <a href="#" class="boton btn btn-block">Desliza hacia arriba!</a>
+                </div>
+            </div>
+            <div class="tarjeta card m-2" style="width: 20rem;" id="foto3">
+                <img src="img/casa.jpg" width = "300px" height = "300px" class="fotilla card-img-top" alt="granja" id="foto">
+                <div class="card-body">
+                    <h5 class="card-title">Casa</h5>
+                    <p class="card-text">(Gana entre 2 a 5 monedas)</p>
+                    <a href="#" class="boton btn btn-block">Desliza hacia arriba!</a>
+                </div>
+            </div>
+            <div class="tarjeta card m-2" style="width: 20rem;" id="foto4">
+                <img src="img/casino.jpg" width = "300px" height = "300px" class="fotilla card-img-top" alt="casino">
+                <div class="card-body">
+                    <h5 class="card-title">Casino</h5>
+                    <p class="card-text">(Gana o pierde entre 0 a 50 monedas)</p>
+                    <a href="#" class="boton btn btn-block">Desliza hacia arriba!</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="justify-content-center">
+                <textarea id="texto"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>

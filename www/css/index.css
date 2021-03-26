@@ -1,0 +1,67 @@
+body{
+    background-color: #eaebe9;
+}
+
+.tarjeta{
+    background-color: #d6d6c2;
+    border-radius: 10px;
+}
+.boton{
+    background-color: #f56a0d;
+    color: white;
+    font-size: large;
+}
+.boton:hover{
+    background-color: #ccb54c;
+    color: white;
+}
+
+header{
+background-color: #bea371;
+color: white;
+font-size: 30px;
+font-weight: 600;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+-webkit-text-stroke: .5px rgb(85, 83, 61);
+
+}
+
+#contadorOro{
+    width: 4%;
+    border: 1px solid rgb(68, 64, 64);
+    border-radius: 5px;
+    max-height: 30px;
+}
+.contenedorFoto{
+    width : 300px; 
+    height : 300px ;
+}
+
+img.fotilla{
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+	
+
+img.fotilla:hover{
+    filter: grayscale(80%);
+    transition:all .5s ease-in-out;
+} 
+textarea#texto{
+display: flex;
+margin: auto;
+width: 50%;
+height: 200px;
+font-size: small;
+background-color: #d6d6c2;
+border-radius: 15px;
+border: 1px solid #bda18e;
+margin-top: 20px;
+}
+
+label{
+    display: flex;
+    margin: auto;
+}
